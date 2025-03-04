@@ -108,5 +108,20 @@ const viaggi = [
       },
     ],
   },
+  {
+    id: 4,
+    destinazione: "Firenze",
+    dataInizio: "2025-07-05",
+    dataFine: "2025-07-10",
+    viaggiatori: [
+      {
+        id: 1,
+        nome: "Giulia",
+        cognome: "Ravelli",
+        email: "giulia.ravelli@example.com",
+        codiceFiscale: "RVLGLI85M01H501Z",
+      }
+    ],
+  }
 ];
 export default viaggi;
