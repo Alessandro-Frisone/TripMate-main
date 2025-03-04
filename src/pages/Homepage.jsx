@@ -1,7 +1,9 @@
-import Data from "../data/Viaggi"
+import viaggi from "../data/viaggi"
+ 
 export default function Homepage() {
   return (
     <div>
+      
       <ul>
         {viaggi.map((viaggio) => {
           return(

@@ -1,6 +1,4 @@
-export default function viaggi(){
-    return(
-        // Array di viaggi
+// Array di viaggi
 const viaggi = [
     {
         id: 1,
@@ -132,6 +130,5 @@ const viaggi = [
         ]
     },
     ]
-)
 
-}
+export default viaggi
