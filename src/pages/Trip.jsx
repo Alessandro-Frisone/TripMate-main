@@ -1,5 +1,6 @@
 import viaggi from "../data/viaggi";
 import { useParams } from "react-router";
+import { Link } from "react-router";
 
 export default function Trip() {
   const { id } = useParams();
@@ -26,6 +27,13 @@ export default function Trip() {
       ) : (
         <p className="text-lg text-gray-600 mt-4 text-center">❌ Nessun viaggiatore trovato per questo viaggio.</p>
       )}
+       <Link 
+            to={`/`} 
+            className="mt-5 px-4 py-2 rounded-lg text-sm transition-all duration-350 flex items-center gap-2 relative z-10 group bg-gradient-to-br from-sky-900 to-teal-800 shadow-md border-l-4 border-emerald-600 hover:bg-sky-900 hover:scale-105 hover:shadow-lg hover:shadow-emerald-500/50 backdrop-blur-sm text-white font-semibold"
+          >
+            <span className="text-emerald-400 text-xl transition-transform group-hover:rotate-6 group-hover:scale-110">⬅️</span>
+            <span className="group-hover:text-emerald-300 tracking-wide">Indietro</span>
+          </Link>
     </div>
   </div>
   );
