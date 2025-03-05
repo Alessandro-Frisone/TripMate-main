@@ -7,6 +7,7 @@ export default function Header() {
     <div className="absolute inset-0 bg-[radial-gradient(circle_at_bottom_right,_rgba(255,255,255,0.1),_transparent)] opacity-40 blur-sm animate-pulse"></div>
     
     <NavBar />
+    
   </header>
   );
 }

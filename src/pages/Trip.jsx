@@ -19,6 +19,7 @@ export default function Trip() {
             <div key={viaggiatore.id} className="p-5 bg-gray-50 border border-gray-200 rounded-lg shadow-md">
               <p className="text-lg font-medium text-gray-900">{viaggiatore.nome} {viaggiatore.cognome}</p>
               <p className="text-sm text-gray-700">📧 <strong>Email:</strong> {viaggiatore.email}</p>
+              <p className="text-sm text-gray-700">📱 <strong>Numero di telefono:</strong> {viaggiatore.telefono}</p>
             </div>
           ))}
         </div>

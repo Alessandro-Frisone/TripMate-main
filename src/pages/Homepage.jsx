@@ -1,6 +1,7 @@
 import { Link } from "react-router";
 import viaggi from "../data/viaggi";
 
+
 export default function Homepage() {
   return (
     <div className="relative min-h-screen">
